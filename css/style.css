@@ -1,0 +1,26 @@
+:root {
+  --cafe-brown: #5c3d2e;
+  --cafe-bg: #f8f5f2;
+}
+
+body {
+  background-color: var(--cafe-bg);
+  font-family: Arial, sans-serif;
+}
+
+.navbar, .btn-cafe {
+  background-color: var(--cafe-brown) !important;
+  color: white !important;
+}
+
+.hero {
+  background: var(--cafe-brown);
+  color: white;
+  padding: 60px 20px;
+  border-radius: 0 0 15px 15px;
+}
+
+.food-img {
+  height: 180px;
+  object-fit: cover;
+}
