@@ -1,0 +1,212 @@
+```css
+/* ========================================
+   GENERAL
+======================================== */
+
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ========================================
+   NAVBAR
+======================================== */
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* ========================================
+   HERO SECTION
+======================================== */
+
+.hero {
+    padding: 80px 20px;
+    background-color: #e9ecef;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #555;
+}
+
+
+/* ========================================
+   MENU
+======================================== */
+
+#menuGrid {
+    min-height: 200px;
+}
+
+.menu-card {
+    height: 100%;
+    transition: 0.2s;
+}
+
+.menu-card:hover {
+    transform: translateY(-3px);
+}
+
+.menu-card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* ========================================
+   LOGIN & REGISTER
+======================================== */
+
+.login-card,
+.register-card {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: none;
+}
+
+.login-card h2,
+.register-card h2 {
+    font-weight: bold;
+}
+
+
+/* ========================================
+   FORM
+======================================== */
+
+.form-control,
+.form-select {
+    padding: 11px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+    border-color: #212529;
+}
+
+
+/* ========================================
+   BUTTONS
+======================================== */
+
+.btn {
+    border-radius: 5px;
+}
+
+
+/* ========================================
+   CART
+======================================== */
+
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+
+/* ========================================
+   ADMIN DASHBOARD
+======================================== */
+
+.admin-card {
+    border: none;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+
+/* ========================================
+   ADMIN MENU IMAGE
+======================================== */
+
+.admin-menu-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+
+/* ========================================
+   ORDERS TABLE
+======================================== */
+
+.table {
+    background-color: white;
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+
+/* ========================================
+   MESSAGE
+======================================== */
+
+.success-message {
+    color: green;
+    background-color: #d1e7dd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error-message {
+    color: #842029;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* ========================================
+   MOBILE RESPONSIVE
+======================================== */
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .login-card,
+    .register-card {
+        margin-top: 30px;
+    }
+
+}
+```
